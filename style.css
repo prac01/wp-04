@@ -1,4 +1,4 @@
-Theme Name: WP-04
+/*Theme Name: WP-04
 Theme Description: THEME GALLERY
 */
 /**Fix fonts that nder as bold in Firefox**/
@@ -10,14 +10,7 @@ html {
     font-weight: 400;
     margin: 0; padding: 0; border: 0; outline: 0;
   }
-  /**
-   * Firefox specific rule
-   */
-  @-moz-document url-prefix() {
-    body {
-      font-weight: lighter !important;
-    }
-  }
+
 
 /****Loader*********/
     .body {background:#262626; margin:0; padding:0; height:100vh; width:100%;}
@@ -88,12 +81,16 @@ input:focus, textarea {
 .btn{display: none;}
 
 /*****BANNER*****/
-#banner{width:100%; height:560px; /*background: #56dbe4;*/ margin:0 0 90px 0;}
+#banner{width:100%; height:560px; /*background: #56dbe4;*/ }
 
 /****SECTION****/
-#contents{max-width: 1080px; margin:0 auto; height: 100%;z-index:-1; }
+#contents{
+  max-width: 1080px; margin:0 auto; height: 100%;z-index:-1; 
+  padding-bottom:120px;
+  padding-top:120px;
+}
 
-#contents #gallery{ margin-bottom:90px; padding:0 10px 0 10px;  }
+#contents #gallery{  padding:0 10px 0 10px;  }
 #contents #gallery ul {display:flex; flex-wrap: wrap; }
 #contents #gallery ul li{ }
 
