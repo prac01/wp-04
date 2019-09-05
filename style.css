@@ -3,7 +3,7 @@ Theme Description: THEME GALLERY
 */
 /**Fix fonts that nder as bold in Firefox**/
 html {
-    scroll-behavior: smooth;
+    /*scroll-behavior: smooth;*/
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
@@ -84,6 +84,7 @@ input:focus, textarea {
 #banner{width:100%; height:560px; /*background: #56dbe4;*/ }
 
 /****SECTION****/
+
 #contents{
   max-width: 1080px; margin:0 auto; height: 100%;z-index:-1; 
   padding-bottom:120px;
